@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Avnish Kumar - Professional Software Development Engineer and Full Stack Web Developer. View projects, skills, education, and contact information.">
+  <meta name="keywords" content="Avnish Kumar, Software Engineer, Web Developer, Portfolio, Java, Neovim, Full Stack, Smart Productivity Dashboard, AI Code Error Fixer">
+  <meta name="author" content="Avnish Kumar">
+  
+  <!-- OpenGraph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Avnish Kumar | Premium Portfolio">
+  <meta property="og:description" content="Software Development Engineer and Web Developer showcasing premium projects, skills, and experience.">
+  
+  <title>Avnish Kumar | Software Development Engineer</title>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css?v=1.0.1">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Background Decorative Canvas & Glow Spots -->
+  <canvas id="canvas-particles"></canvas>
+  <div class="space-ambient"></div>
+  <div class="space-ambient-2"></div>
+
+  <!-- Header & Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">AVNISH.DEV</a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <a href="#contact" class="glow-btn glow-btn-primary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">
+          Hire Me <i data-lucide="arrow-right"></i>
+        </a>
+        <div class="mobile-menu-btn" id="mobile-menu-btn">
+          <i data-lucide="menu"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      
+      <div class="hero-content reveal-left">
+        <div class="hero-subtitle">WELCOME TO MY WORLD</div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="text-gradient glow-glow">Avnish Kumar</span>
+        </h1>
+        
+        <div class="typewriter-wrapper">
+          I am a <span id="typewriter"></span><span class="cursor"></span>
+        </div>
+        
+        <p class="hero-description">
+          To secure a Software Development Engineer position in a progressive organization where I can apply my knowledge of programming, software development, data structures, and modern web technologies to build scalable and efficient solutions.
+        </p>
+        
+        <div class="hero-btns">
+          <a href="#projects" class="glow-btn glow-btn-primary">
+            View Projects <i data-lucide="external-link"></i>
+          </a>
+          <a href="#contact" class="glow-btn glow-btn-outline">
+            Let's Talk <i data-lucide="message-square"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-visual reveal-right">
+        <div class="code-card">
+          <div class="glow-orb"></div>
+          <div class="code-card-header">
+            <div class="code-dots">
+              <div class="code-dot code-dot-red"></div>
+              <div class="code-dot code-dot-yellow"></div>
+              <div class="code-dot code-dot-green"></div>
+            </div>
+            <span class="code-title">avnish.java</span>
+          </div>
+          <div class="code-card-body">
+            <p><span class="comment">// SDE Career Objective & Passion</span></p>
+            <p><span class="keyword">public class</span> <span class="function">AvnishKumar</span> {</p>
+            <p>&nbsp;&nbsp;<span class="keyword">private String</span> primaryLanguage = <span class="string">"Java"</span>;</p>
+            <p>&nbsp;&nbsp;<span class="keyword">private String</span> editor = <span class="string">"Neovim"</span>;</p>
+            <p>&nbsp;&nbsp;<span class="keyword">private int</span> leetCodeSolved = <span class="number">150</span>;</p>
+            <br>
+            <p>&nbsp;&nbsp;<span class="keyword">public void</span> <span class="function">innovate</span>() {</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(<span class="string">"Building scalable &"</span>);</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(<span class="string">"efficient solutions..."</span>);</p>
+            <p>&nbsp;&nbsp;}</p>
+            <p>}</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- About & CLI Terminal Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">01 / ABOUT ME</span>
+        <h2 class="section-title text-gradient">Who is Avnish?</h2>
+        <p class="section-subtitle">
+          A dedicated tech innovator and problem solver, mixing clean code with efficient CLI tools like Vim & Neovim.
+        </p>
+      </div>
+      
+      <div class="about-grid">
+        
+        <div class="about-details reveal-left">
+          <div class="about-profile-header">
+            <div class="profile-photo-wrapper">
+              <img src="images/avnish.jpg" alt="Avnish Kumar" class="profile-photo">
+            </div>
+            <div class="profile-title-area">
+              <h3>SDE Aspirant & Web Developer</h3>
+              <p class="profile-college">B.Tech CSE Student @ IMS Engineering College</p>
+            </div>
+          </div>
+          <p>
+            I am a B.Tech Computer Science student with a passionate drive for full stack web development and software architecture. Having developed projects like a collaborative productivity dashboard and an AI-driven debugging tool, I specialize in combining client-side design with robust server logic.
+          </p>
+          <p>
+            My workflow centers around speed and optimization. I leverage terminal utilities (Vim/Neovim) to code efficiently, and continually refine my analytical problem-solving skills, having solved over 150+ algorithmic tasks on LeetCode.
+          </p>
+          
+          <div class="stats-grid">
+            <div class="stat-card">
+              <span class="stat-number">150+</span>
+              <span class="stat-label">LeetCode Solved</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">8.5</span>
+              <span class="stat-label">B.Tech CGPA</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">Top 5</span>
+              <span class="stat-label">National Hackathon</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Retro-Modern Vim Terminal Widget -->
+        <div class="terminal-widget reveal-right">
+          <div class="terminal-header">
+            <div class="terminal-tabs">
+              <div class="terminal-tab">
+                <i data-lucide="terminal" style="width: 14px; height: 14px;"></i> bash (avnish@arch)
+              </div>
+            </div>
+            <div class="terminal-actions-bar">
+              <span class="terminal-action-btn" title="Clear" id="btn-clear-terminal">clear</span>
+              <span class="terminal-action-btn" title="Show Help" id="btn-help-terminal">help</span>
+            </div>
+          </div>
+          
+          <div class="terminal-body" id="terminal-body">
+            <div class="terminal-log" id="terminal-log">
+              <div class="terminal-welcome">
+                <span class="terminal-welcome-title">Avnish's Interactive CLI Portfolio [v1.0.4]</span>
+                <p class="terminal-welcome-desc">Type commands to explore resume or click the fast-badges below.</p>
+                <p class="terminal-welcome-desc">Available commands: <span style="color: var(--secondary);">skills</span>, <span style="color: var(--secondary);">education</span>, <span style="color: var(--secondary);">achievements</span>, <span style="color: var(--secondary);">objective</span>, <span style="color: var(--secondary);">clear</span>, <span style="color: var(--secondary);">help</span></p>
+              </div>
+              <div class="terminal-command-line">
+                <span class="prompt">avnish@portfolio:~$</span>
+                <span class="command-text">cat welcome.md</span>
+              </div>
+              <div class="output-text">Welcome to my terminal! Click any button below to immediately execute mock CLI commands and retrieve direct resume details.</div>
+            </div>
+            
+            <div class="terminal-input-row">
+              <span class="prompt">avnish@portfolio:~$</span>
+              <input type="text" id="terminal-input" placeholder="Type a command..." autocomplete="off" autofocus>
+            </div>
+          </div>
+          
+          <div class="terminal-shortcuts">
+            <span class="terminal-shortcut-label">Click shortcuts:</span>
+            <span class="cli-badge" data-cmd="skills">cat skills.txt</span>
+            <span class="cli-badge" data-cmd="achievements">cat achievements.txt</span>
+            <span class="cli-badge" data-cmd="education">cat education.md</span>
+            <span class="cli-badge" data-cmd="objective">cat objective.txt</span>
+            <span class="cli-badge" data-cmd="clear">clear</span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Education Section -->
+  <section class="experience-education" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">02 / MILESTONES</span>
+        <h2 class="section-title text-gradient">Experience & Education</h2>
+        <p class="section-subtitle">
+          Tracking my career pathway through internships, academic courses, and self-learning objectives.
+        </p>
+      </div>
+      
+      <div class="timeline-grid">
+        
+        <!-- Experience Timeline -->
+        <div class="timeline-column reveal-left">
+          <h3><i data-lucide="briefcase"></i> Professional Experience</h3>
+          
+          <div class="timeline-wrapper">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-meta">
+                <span class="timeline-date">April 2026 - June 2026</span>
+                <span class="timeline-sub">Internship</span>
+              </div>
+              <span class="timeline-org">Eduskills & PaloAlto Networks</span>
+              <h4 class="timeline-title">Cybersecurity virtual Internship</h4>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Completed a 10-week Cybersecurity Virtual Internship supported by Palo Alto Networks through the AICTEEduSkills program.</li>
+                  <li>Developed practical understanding of network security, cyber threats, vulnerability management, and incident response.</li>
+                  <li>Strengthened security analysis and problem-solving skills through hands-on learning and real-world cybersecurity scenarios.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br><br>
+
+          <div class="timeline-wrapper">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-meta">
+                <span class="timeline-date">Feb 2026 - Mar 2026</span>
+                <span class="timeline-sub">Internship</span>
+              </div>
+              <span class="timeline-org">SoftGrowTech</span>
+              <h4 class="timeline-title">Web Developer Intern</h4>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Completed a intensive 1-month Web Development Internship at SoftGrowTech.</li>
+                  <li>Gained practical hands-on experience developing responsive web applications and implementing core web development paradigms.</li>
+                  <li>Recognized for outstanding technical performance and successful timely execution of key project deliverables.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Education Timeline -->
+        <div class="timeline-column reveal-right">
+          <h3><i data-lucide="graduation-cap"></i> Academic Background</h3>
+          
+          <div class="timeline-wrapper">
+            <!-- College -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-meta">
+                <span class="timeline-date">2023 - 2027</span>
+                <span class="timeline-sub">Bachelor of Technology</span>
+              </div>
+              <span class="timeline-org">IMS Engineering College Ghaziabad (AKTU)</span>
+              <h4 class="timeline-title">Computer Science & Engineering</h4>
+              <div class="timeline-desc">
+                <p>Acquiring knowledge in core Computer Science fundamentals, Software Engineering, and Advanced Web Tech.</p>
+                <div class="timeline-score">Performance: <strong>CGPA 8.5</strong></div>
+              </div>
+            </div>
+            
+            <!-- Intermediate -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-meta">
+                <span class="timeline-date">2022 - 2023</span>
+                <span class="timeline-sub">12th Grade / Intermediate</span>
+              </div>
+              <span class="timeline-org">T.S.M Inter College Shahzadpur</span>
+              <h4 class="timeline-title">Science & Mathematics</h4>
+              <div class="timeline-desc">
+                <div class="timeline-score">Performance Score: <strong>81.0%</strong></div>
+              </div>
+            </div>
+            
+            <!-- High School -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-meta">
+                <span class="timeline-date">2020 - 2021</span>
+                <span class="timeline-sub">10th Grade / High School</span>
+              </div>
+              <span class="timeline-org">T.S.M Inter College Shahzadpur</span>
+              <h4 class="timeline-title">Secondary Education</h4>
+              <div class="timeline-desc">
+                <div class="timeline-score">Performance Score: <strong>85.3%</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools & Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">03 / TECHNICAL ARMORY</span>
+        <h2 class="section-title text-gradient">Tools & Skills</h2>
+        <p class="section-subtitle">
+          My primary coding languages, frameworks, system utilities, and computing concepts.
+        </p>
+      </div>
+      
+      <div class="skills-grid">
+        
+        <!-- Programming Languages -->
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <i data-lucide="code-2"></i>
+            </div>
+            <span class="skill-category-title">Languages</span>
+          </div>
+          <div class="skill-items-container">
+            <span class="skill-badge primary-skill" style="border-color: var(--primary); color: white;">Java (Primary)</span>
+            <span class="skill-badge">C</span>
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">HTML5</span>
+            <span class="skill-badge">CSS3</span>
+            <span class="skill-badge">MongoDB</span>
+          </div>
+        </div>
+        
+        <!-- Frameworks & Libraries -->
+        <div class="skill-category reveal delay-100">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <i data-lucide="layers"></i>
+            </div>
+            <span class="skill-category-title">Frameworks</span>
+          </div>
+          <div class="skill-items-container">
+            <span class="skill-badge">React</span>
+            <span class="skill-badge">Node.js</span>
+            <span class="skill-badge">Express.js</span>
+            <span class="skill-badge">Streamlit</span>
+          </div>
+        </div>
+        
+        <!-- System & Tools -->
+        <div class="skill-category reveal delay-200">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <i data-lucide="terminal"></i>
+            </div>
+            <span class="skill-category-title">Systems & Tools</span>
+          </div>
+          <div class="skill-items-container">
+            <span class="skill-badge">Linux</span>
+            <span class="skill-badge">Git & GitHub</span>
+            <span class="skill-badge">Vim & Neovim</span>
+            <span class="skill-badge">CLI Tooling</span>
+            <span class="skill-badge">VS Code</span>
+            <span class="skill-badge">MySQL</span>
+          </div>
+        </div>
+        
+        <!-- CS Fundamentals -->
+        <div class="skill-category reveal delay-300">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <i data-lucide="cpu"></i>
+            </div>
+            <span class="skill-category-title">CS Fundamentals</span>
+          </div>
+          <div class="skill-items-container">
+            <span class="skill-badge">Data Structures</span>
+            <span class="skill-badge">Algorithms</span>
+            <span class="skill-badge">OOPs</span>
+            <span class="skill-badge">DBMS</span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">04 / CREATIVE PORTFOLIO</span>
+        <h2 class="section-title text-gradient">Personal Projects</h2>
+        <p class="section-subtitle">
+          Demonstrating software development capabilities with real-world fully deployed projects.
+        </p>
+      </div>
+      
+      <div class="project-filters reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="web">Web Full-Stack</button>
+        <button class="filter-btn" data-filter="ai">AI & Python</button>
+      </div>
+      
+      <div class="projects-grid">
+        
+        <!-- Project 1: Smart Productivity Dashboard -->
+        <div class="project-card reveal" data-category="web">
+          <div class="project-image-wrapper">
+            <!-- Custom Vector Art SVG so there is no empty gap -->
+            <svg class="project-vector" viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="svg-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#1e1b4b"/>
+                  <stop offset="50%" stop-color="#311054"/>
+                  <stop offset="100%" stop-color="#0f172a"/>
+                </linearGradient>
+                <linearGradient id="neon-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#6366f1"/>
+                  <stop offset="100%" stop-color="#06b6d4"/>
+                </linearGradient>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#svg-grad-1)" />
+              <!-- Mock Dashboard Wireframe -->
+              <rect x="40" y="30" width="320" height="160" rx="10" fill="#090a0f" stroke="url(#neon-glow)" stroke-width="1.5"/>
+              <line x1="40" y1="60" x2="360" y2="60" stroke="#1e293b" stroke-width="1"/>
+              <line x1="120" y1="60" x2="120" y2="190" stroke="#1e293b" stroke-width="1"/>
+              <!-- Mock Sidebar Items -->
+              <rect x="50" y="80" width="60" height="8" rx="2" fill="#3b82f6" opacity="0.6"/>
+              <rect x="50" y="100" width="50" height="8" rx="2" fill="#1e293b"/>
+              <rect x="50" y="120" width="55" height="8" rx="2" fill="#1e293b"/>
+              <!-- Whiteboard SVG visual -->
+              <rect x="140" y="75" width="200" height="75" rx="6" fill="#161a2b" stroke="#334155" stroke-width="1"/>
+              <path d="M160,110 Q200,90 230,120 T300,90" stroke="#06b6d4" stroke-width="2" fill="none"/>
+              <circle cx="300" cy="90" r="3" fill="#a855f7"/>
+              <!-- Floating cards -->
+              <rect x="140" y="160" width="60" height="20" rx="4" fill="#312e81" stroke="#4338ca" stroke-width="1"/>
+              <rect x="210" y="160" width="60" height="20" rx="4" fill="#065f46" stroke="#047857" stroke-width="1"/>
+              <rect x="280" y="160" width="60" height="20" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+            </svg>
+            
+            <div class="project-card-overlay">
+              <a href="#" class="overlay-btn" title="Live Preview"><i data-lucide="eye"></i></a>
+              <a href="#" class="overlay-btn" title="Source Code"><i data-lucide="github"></i></a>
+            </div>
+            <div class="project-tech-badges">
+              <span class="proj-tech-badge">Node.js</span>
+              <span class="proj-tech-badge">MongoDB</span>
+              <span class="proj-tech-badge">Express</span>
+              <span class="proj-tech-badge">Vanilla JS</span>
+            </div>
+          </div>
+          
+          <div class="project-details">
+            <div class="project-meta">
+              <span class="project-duration">Jan 2026 (2 Months)</span>
+            </div>
+            <h3 class="project-title">Smart Productivity Dashboard</h3>
+            <div class="project-desc">
+              <p>Developed a comprehensive full-stack platform designed to streamline personal workflows and remote teamwork.</p>
+              <ul>
+                <li>Integrates a shared virtual whiteboard, task tracker, persistent notes, and built-in AI assistant.</li>
+                <li>Secure user account token authorization and dynamic dashboard customization.</li>
+                <li>Tailored with a fast, high-fidelity responsive user interface.</li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <!-- <a href="#projects" class="project-link"><i data-lucide="external-link"></i> Live Demo</a> -->
+              <a href="https://github.com/Avnish-kumar-01/smart-dashboard" class="project-link"><i data-lucide="github"></i> Repository</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2: AI Code Error Fixer -->
+        <div class="project-card reveal delay-200" data-category="ai">
+          <div class="project-image-wrapper">
+            <!-- Custom Vector Art SVG so there is no empty gap -->
+            <svg class="project-vector" viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="svg-grad-2" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#020617"/>
+                  <stop offset="50%" stop-color="#111827"/>
+                  <stop offset="100%" stop-color="#1e1b4b"/>
+                </linearGradient>
+                <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#06b6d4"/>
+                  <stop offset="100%" stop-color="#a855f7"/>
+                </linearGradient>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#svg-grad-2)" />
+              <!-- Mock IDE Code Error Window -->
+              <rect x="40" y="30" width="170" height="160" rx="8" fill="#080c14" stroke="#1e293b" stroke-width="1.5"/>
+              <line x1="40" y1="50" x2="210" y2="50" stroke="#1e293b" stroke-width="1"/>
+              <!-- Simulated Buggy Code lines -->
+              <rect x="50" y="65" width="80" height="5" rx="2" fill="#ef4444"/>
+              <rect x="50" y="80" width="110" height="5" rx="2" fill="#334155"/>
+              <rect x="65" y="95" width="90" height="5" rx="2" fill="#eab308"/>
+              <rect x="65" y="110" width="120" height="5" rx="2" fill="#ef4444"/>
+              
+              <!-- Arrow/Pipeline visual -->
+              <path d="M225,110 L255,110" stroke="url(#cyan-glow)" stroke-width="2.5" marker-end="url(#arrow)" fill="none"/>
+              
+              <!-- Clean Code Window -->
+              <rect x="270" y="30" width="90" height="160" rx="8" fill="#080c14" stroke="#10b981" stroke-width="1.5"/>
+              <line x1="270" y1="50" x2="360" y2="50" stroke="#10b981" stroke-width="1"/>
+              <!-- Corrected lines -->
+              <rect x="280" y="65" width="40" height="5" rx="2" fill="#10b981"/>
+              <rect x="280" y="80" width="60" height="5" rx="2" fill="#10b981"/>
+              <rect x="280" y="95" width="50" height="5" rx="2" fill="#10b981"/>
+            </svg>
+            
+            <div class="project-card-overlay">
+              <a href="#" class="overlay-btn" title="Live Preview"><i data-lucide="eye"></i></a>
+              <a href="#" class="overlay-btn" title="Source Code"><i data-lucide="github"></i></a>
+            </div>
+            <div class="project-tech-badges">
+              <span class="proj-tech-badge">Python</span>
+              <span class="proj-tech-badge">Streamlit</span>
+              <span class="proj-tech-badge">Gemini API</span>
+            </div>
+          </div>
+          
+          <div class="project-details">
+            <div class="project-meta">
+              <span class="project-duration">Nov 2025</span>
+            </div>
+            <h3 class="project-title">AI Code Error Fixer</h3>
+            <div class="project-desc">
+              <p>Created an AI-driven terminal/web assistant designed to speed up software engineering debugging loops.</p>
+              <ul>
+                <li>Parses user-entered syntax errors, run-time logs, and source code.</li>
+                <li>Integrates Google's Gemini LLM to suggest precise, auto-formatted code resolutions.</li>
+                <li>Reduces developer resolution times and optimizes CLI output clarity.</li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <!-- <a href="#projects" class="project-link"><i data-lucide="external-link"></i> Live Demo</a> -->
+              <a href="https://github.com/Avnish-kumar-01/Code-Error-Fixer" class="project-link"><i data-lucide="github"></i> Repository</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Achievements Section -->
+  <section class="certifications" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">05 / ACCOLADES</span>
+        <h2 class="section-title text-gradient">Certifications & Achievements</h2>
+        <p class="section-subtitle">
+          Credentials, honors, and skill-milestones recognized by national agencies and communities.
+        </p>
+      </div>
+      
+      <div class="cert-grid">
+        
+        <!-- Hackathon -->
+        <div class="cert-card reveal">
+          <div class="cert-icon-row">
+            <div class="cert-icon">
+              <i data-lucide="trophy"></i>
+            </div>
+            <span class="cert-badge-date">Nov 7, 2025</span>
+          </div>
+          <h3 class="cert-title">National Level Hackathon Winner</h3>
+          <span class="cert-org">Inter-College Hackathon Network</span>
+          <p class="cert-highlight">Secure Top 5 Position</p>
+        </div>
+        
+        <!-- LeetCode -->
+        <div class="cert-card reveal delay-100">
+          <div class="cert-icon-row">
+            <div class="cert-icon">
+              <i data-lucide="award"></i>
+            </div>
+            <span class="cert-badge-date">Ongoing</span>
+          </div>
+          <h3 class="cert-title">Algorithm Champion</h3>
+          <span class="cert-org">LeetCode Community</span>
+          <p class="cert-highlight">Solve 150+ Problems (DSA)</p>
+        </div>
+        
+        <!-- Graphic Design -->
+        <div class="cert-card reveal delay-200">
+          <div class="cert-icon-row">
+            <div class="cert-icon">
+              <i data-lucide="palette"></i>
+            </div>
+            <span class="cert-badge-date">Sep 23, 2025</span>
+          </div>
+          <h3 class="cert-title">Graphic Design - Adobe</h3>
+          <span class="cert-org">Creative Visual Arts Certificate</span>
+          <p class="cert-highlight">Vector, UI, and Graphics Mastery</p>
+        </div>
+        
+        <!-- CCA -->
+        <div class="cert-card reveal delay-300">
+          <div class="cert-icon-row">
+            <div class="cert-icon">
+              <i data-lucide="file-check"></i>
+            </div>
+            <span class="cert-badge-date">3-Month Program</span>
+          </div>
+          <h3 class="cert-title">Certificate in Computer Application</h3>
+          <span class="cert-org">AICT Computer Education</span>
+          <p class="cert-highlight">Office Suite & Core Application Logic</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">06 / GET IN TOUCH</span>
+      <h2 class="section-title text-gradient">Let's Connect</h2>
+      <p class="section-subtitle">
+        Have an exciting project or SDE role? Drop me a message and let's build something epic!
+      </p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-info reveal-left">
+        <div>
+          <h3 style="font-size: 1.8rem; margin-bottom: 0.5rem;">Contact Information</h3>
+          <p class="contact-info-subtitle">
+            Feel free to reach out directly through email, phone, or check my socials.
+          </p>
+        </div>
+
+        <div class="contact-details-list">
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i data-lucide="mail"></i>
+            </div>
+            <div class="contact-item-text">
+              <span>Email Address</span>
+              <a href="mailto:avnishchauhan7088@gmail.com">
+                avnishchauhan7088@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i data-lucide="phone"></i>
+            </div>
+            <div class="contact-item-text">
+              <span>Phone Call</span>
+              <a href="tel:+917088021487">
+                +91 7088021487
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/avnish-kumar-7bba79381"
+             target="_blank"
+             class="social-btn"
+             title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a href="https://github.com/Avnish-kumar-01"
+             target="_blank"
+             class="social-btn"
+             title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="https://leetcode.com/u/Avnish7088/"
+             target="_blank"
+             class="social-btn"
+             title="LeetCode">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+              alt="LeetCode"
+              class="leetcode-icon">
+          </a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form-container reveal-right">
+        <form class="contact-form" id="contact-form">
+
+          <div class="form-group">
+            <input
+              type="text"
+              id="form-name"
+              class="form-input"
+              placeholder=" "
+              required>
+            <label for="form-name" class="form-label">
+              Your Name
+            </label>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="email"
+              id="form-email"
+              class="form-input"
+              placeholder=" "
+              required>
+            <label for="form-email" class="form-label">
+              Your Email
+            </label>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="text"
+              id="form-subject"
+              class="form-input"
+              placeholder=" "
+              required>
+            <label for="form-subject" class="form-label">
+              Subject
+            </label>
+          </div>
+
+          <div class="form-group">
+            <textarea
+              id="form-message"
+              class="form-input"
+              placeholder=" "
+              required></textarea>
+
+            <label for="form-message" class="form-label">
+              Your Message
+            </label>
+          </div>
+
+          <button
+            type="submit"
+            class="glow-btn glow-btn-primary submit-btn">
+            <span id="btn-text">
+              Send Message
+            </span>
+            <i data-lucide="send"></i>
+          </button>
+
+          <div id="form-status"
+               style="
+                 margin-top:15px;
+                 text-align:center;
+                 font-size:14px;
+                 font-weight:500;
+               ">
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+  <!-- Notification Dialog for simulated form submission -->
+  <div class="notification-dialog" id="contact-notif">
+    <div class="notification-icon">
+      <i data-lucide="check-circle-2"></i>
+    </div>
+    <div>
+      <div class="notification-title">Message Sent!</div>
+      <div class="notification-desc">Thank you. Avnish will respond shortly.</div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <span class="footer-logo">AVNISH KUMAR</span>
+      <div class="footer-nav">
+        <a href="#hero" class="footer-link">Home</a>
+        <a href="#about" class="footer-link">About</a>
+        <a href="#experience" class="footer-link">Milestones</a>
+        <a href="#skills" class="footer-link">Skills</a>
+        <a href="#projects" class="footer-link">Projects</a>
+      </div>
+      <p class="footer-credits">
+        &copy; 2026 Avnish Kumar.<i data-lucide="heart" style="width: 14px; height: 14px; fill: #ef4444; color: #ef4444;"></i> .
+</p>
+    </div>
+  </footer>
+
+  <!-- Script Import -->
+  <script src="main.js"></script>
+</body>
+</html>
