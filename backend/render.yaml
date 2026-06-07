@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: avnish-portfolio-backend
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: RESEND_API_KEY
+        sync: false
