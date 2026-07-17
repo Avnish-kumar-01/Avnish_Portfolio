@@ -7,7 +7,7 @@ const CONFIG = {
   // Replace this with your production backend URL (e.g., https://your-portfolio-backend.onrender.com)
   API_URL: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
     ? 'http://localhost:5000' 
-    : 'https://your-deployed-backend-url.com'
+    : https://avnish-portfolio-7c3y.onrender.com
 };
 
 document.addEventListener('DOMContentLoaded', () => {
